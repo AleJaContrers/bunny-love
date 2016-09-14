@@ -1,0 +1,103 @@
+body{
+	background-color: #ECF7FB;
+}
+.cajauno{
+	background-color: #037F99;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.cajauno h1{
+	font-family: 'Baloo Paaji', cursive;
+	float: left;
+}
+.titulo1{
+	color: white;
+}
+.titulo2{
+	color:#FF7673;
+}
+
+.c1menu ul li{
+	display: inline-block;
+	margin-top: 4%;
+	margin-right: 1%;
+}
+
+.c1menu ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Prompt', sans-serif;
+}
+.c2fotoconejito{
+	background-image: url(../img/img-1.jpg);
+	background-size: 100%;
+}
+
+.c2cajatexto{
+	text-align: center;
+	font-size: 90%;
+	background:#037F99;
+	height: 200px;
+	padding: 1%;
+	opacity: 0.7;
+	margin:15% 20%;
+}
+
+
+.c2cajatexto h1{
+	font-size: 450%;
+	font-family:'Baloo Paaji', cursive;
+	color: #FF7673;
+}
+.c2cajatexto ul li{
+	list-style: none;
+	display: inline-block;
+	font-family: 'Prompt', sans-serif;
+	font-style: italic;
+	color: white;
+	margin-top:-30%;
+}
+
+
+.c3cuadro{
+	text-align: center;
+	background-color: #037F99;
+	height: 320px;
+	display: inline-block;
+	border:7px solid white;
+}
+
+.c3cuadro img{
+	width: 100%;
+}
+
+.c3cuadro h1{
+	color: #FF7673;
+	font-family: 'Baloo Paaji', cursive;
+	font-size: 90%;
+}
+.c3cuadro p{
+	color: white;
+	font-family: 'Prompt', sans-serif;
+	font-size: 90%;
+}
+
+.fotocon{
+	width: 100px;
+}
+
+.cajaconejos{
+	background-image: url(../img/bunny-head.png);
+	margin-top: 2%;
+	background-size: 100px;
+	height: 50px;
+}
+.foot{
+	text-align: center;
+	font-family: 'Prompt', sans-serif;
+	padding:1.5%;
+	background-color: #037F99;
+	color: white;
+	font-size: 16px;
+	border-top: 2px solid #FF7673;
+}
