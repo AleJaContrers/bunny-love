@@ -71,10 +71,11 @@ body{
 	width: 100%;
 }
 
-.c3cuadro h1{
+.c3cuadro h1, .cajacuatro h1{
 	color: #FF7673;
 	font-family: 'Baloo Paaji', cursive;
-	font-size: 90%;
+	font-size: 98%;
+	text-align: center;
 }
 .c3cuadro p{
 	color: white;
@@ -82,15 +83,68 @@ body{
 	font-size: 90%;
 }
 
-.fotocon{
-	width: 100px;
+.cajacuatro h1{
+	color: #FF7673;
+	font-family: 'Baloo Paaji', cursive;
+	padding-top: 3%;
+}
+.cajacuatro p{
+	padding: 2%;
+	color: black;
+	font-family: 'Prompt', sans-serif;
+	font-size: 90%;
+}
+
+.foto{
+	width: 100%;	
+}
+
+.caja{
+	border: 9px solid #037F99;	
+}
+
+
+.buscar{
+	text-align: center;	
+	padding: 6%; 
+	height: 100px;
+}
+
+input{
+	width: 100%;
+	padding: 6%;
+	color: #6A6868;
+}
+
+/*iconos redes sociales*/
+.icon{
+	text-align: center;
+	color: #037F99;
+	margin: 2% 0;
+	padding-top: 6.5%;
+	padding-bottom: 7%;
+}
+.fa{
+	background-color: white;
+	border-radius: 60px;
+	width: 40%;
+	height: 30px;
+}
+.fa-instagram, .fa-facebook-official, .fa-twitter, .fa-youtube{
+	padding-top: 8%;
+}
+.icono a:visited{
+	text-decoration: none;
+	color: #037F99;
+
 }
 
 .cajaconejos{
 	background-image: url(../img/bunny-head.png);
 	margin-top: 2%;
-	background-size: 100px;
-	height: 50px;
+	background-size: 170px;
+	height: 90px;
+	margin-bottom: 1%;
 }
 .foot{
 	text-align: center;
@@ -98,6 +152,9 @@ body{
 	padding:1.5%;
 	background-color: #037F99;
 	color: white;
-	font-size: 16px;
+	font-size: 100%;
 	border-top: 2px solid #FF7673;
 }
+
+
+
